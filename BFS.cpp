@@ -1,7 +1,9 @@
+//bfs
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// BFS function
+
 void bfs(int startNode, unordered_map<int, vector<int>>& adjList, int n) {
     vector<bool> visited(n + 1, false);
     queue<int> q;

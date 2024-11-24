@@ -1,7 +1,9 @@
+//dfs
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// Utility function for DFS
+
 void dfsUtil(int current, unordered_map<int, vector<int>>& adjList, vector<bool>& visited) {
     visited[current] = true;
     cout << current << " ";
@@ -13,7 +15,7 @@ void dfsUtil(int current, unordered_map<int, vector<int>>& adjList, vector<bool>
     }
 }
 
-// DFS function
+
 void dfs(int startNode, unordered_map<int, vector<int>>& adjList, int n) {
     vector<bool> visited(n + 1, false);
     cout << "DFS Traversal: ";
@@ -33,7 +35,7 @@ int main() {
         int u, v;
         cin >> u >> v;
         adjList[u].push_back(v);
-        adjList[v].push_back(u); // Comment this line for directed graphs
+        adjList[v].push_back(u); 
     }
 
     int startNode;

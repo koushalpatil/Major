@@ -1,4 +1,4 @@
-
+//prolog
 
 % Defining males and females
 % Defining genders
@@ -25,7 +25,7 @@ female(vandana).
 female(vaishali).
 
 
-
+male(koushal).
 male(bhikajirao).
 male(prakashrao).
 male(balasaheb).
